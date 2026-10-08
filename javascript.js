@@ -16,7 +16,7 @@ let getComputerChoice = function getComputerChoice() {
 getComputerChoice();
 
 let getHumanChoice = function getHumanChoice() {
-    let humanChoice = prompt(`rock/paper/scissors?`, ``);
+    let humanChoice = prompt(`rock/paper/scissors?`, ``).toLowerCase();
     console.log(`humanChoice = ` + humanChoice);
 }
 getHumanChoice();
@@ -25,4 +25,3 @@ let computerScore = 0;
 let humanScore = 0;
 console.log(`computerScore = ` + computerScore + ` (type: ` + (typeof computerScore) + `)`);
 console.log(`humanScore = ` + humanScore + ` (type: ` + (typeof humanScore) + `)`);
-
