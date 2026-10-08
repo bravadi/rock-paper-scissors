@@ -8,17 +8,17 @@ Plan:
 
 Pseudocode:
  GET computer input = random rock/paper/scissors
- READ user input = rock/paper/scissors
+ READ human input = rock/paper/scissors
  IF …
-    user input matches the computer input,
+    human input matches the computer input,
         THEN output "It's a tie."
-    user input is rock AND computer input is paper, OR
-    user input is paper AND computer input is scissor, OR
-    user input is scissors AND computer input is rock, 
+    human input is rock AND computer input is paper, OR
+    human input is paper AND computer input is scissor, OR
+    human input is scissors AND computer input is rock, 
         THEN output "You lose."
-    user input is rock AND computer input is scissors, OR
-    user input is paper AND computer input is rock, OR
-    user input is scissor AND computer input is paper, 
+    human input is rock AND computer input is scissors, OR
+    human input is paper AND computer input is rock, OR
+    human input is scissor AND computer input is paper, 
         THEN output "You win!"
     ELSE
         THEN output "Idk what that is"
