@@ -1,11 +1,12 @@
 // Use strict to prevent accidental global uses of undefined methods.
-`use strict`;
+"use strict";
 
 // Initiated scores are placed globally so they don't reset every time the function below loops.
 let computerScore = 0;
 let humanScore = 0;
 
 let playGame = function playGame() {
+    let round;
     for (round = 0; round < 5; round++) {
         
         // Computer Choice
